@@ -1,0 +1,46 @@
+<!--Navigation-->
+ <div class="navbar-fixed">
+    <nav id="nav_f" class="default_color" role="navigation">
+        <div class="container">
+            <div class="nav-wrapper">
+            <a href="#" id="logo-container" class="brand-logo">VinqBot</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="https://www.messenger.com/t/1791055761154657">Message Us</a></li>
+                    <li><a routerLink="/about">About</a></li>
+                </ul>
+                <ul id="nav-mobile" class="side-nav">
+                    <li><a href="https://www.messenger.com/t/1791055761154657">Message Us</a></li>
+                    <li><a routerLink="/about"></a></li>
+                </ul>
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+            </div>
+        </div>
+    </nav>
+</div>
+<!--Hero-->
+<router-outlet></router-outlet>
+
+<!--Footer-->
+<footer id="contact" class="page-footer default_color scrollspy">
+    <div class="container">  
+        <div class="row">
+            <div class="col l8 s12">
+                <a class="white-text" href="https://www.facebook.com/vinqbot">
+                    <i class="small fa fa-facebook-square white-text"></i> Facebook
+                </a>
+                <a class="white-text" href="https://github.com/obirije">
+                    <i class="small fa fa-github-square white-text"></i> Github
+                </a>
+                <a class="white-text" href="https://ng.linkedin.com/in/obirije-john-a2403310a">
+                    <i class="small fa fa-linkedin-square white-text"></i> Linkedin
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright default_color">
+        <div class="container">
+            <a class="white-text" routerLink="/legal">| Terms of Use</a>
+            <a class="white-text" routerLink="/about">| About us</a>
+        </div>
+    </div>
+</footer>
